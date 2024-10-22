@@ -23,7 +23,7 @@ Using the following dataset that represents customer information and their purch
 
 - Fit a logistic regression model to predict Purchase Amount based on Age and Income.
 
-### [Click here for Problem 1 code](#)
+### [Click here for Problem 1 code](./logistic_regression.r)
 
 ---
 
