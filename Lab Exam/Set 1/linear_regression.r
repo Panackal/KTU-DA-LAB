@@ -20,7 +20,11 @@ predicted_value = predict(model, find)
 cat("When hours studied = 7.5, Marks scored = ", predicted_value)
 
 # Plotting a scatterplot of 'Hours Studied' vs 'Marks Scored'
-plot(x, y, pch = 15, col = "blue", main = "Scatterplot of Hours Studied vs Marks Scored")
+plot(x, y, 
+     pch = 15, col = "blue", 
+     main = "Scatterplot of Hours Studied vs Marks Scored", 
+     xlab = "Hours Studied", 
+     ylab = "Marks Scored")
 
 # Adding the regression line (fitted model) to the scatterplot
 abline(model)
