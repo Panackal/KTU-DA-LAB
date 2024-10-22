@@ -26,8 +26,13 @@ Using the following dataset that represents a relationship between hours studied
 
 ### Outputs
 
-Scatter Plot 
+- Scatter Plot (green is the predicted value, blue is the original data)
+
 ![scatterplot](./plots/scatter_plot.png)
+
+- Histogram
+
+![histogram](./plots/histogram.png)
 
 ### [Click here for Problem 1 code](./linear_regression.r)
 
