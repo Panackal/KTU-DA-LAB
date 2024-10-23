@@ -10,7 +10,7 @@ x <- data$Hours_studied
 # Fitting a linear regression model of 'Marks_scored' (y) as a function of 'Hours_studied' (x)
 model <- lm(y ~ x)
 
-# Creating a data frame to hold the value 7.5 (hours studied) for which we want to predict the marks scored
+# Creating a data frame to hold the values  7.5 (hours studied) for which we want to predict the marks scored
 find <- data.frame(x = 7.5)
 
 # Using the predict() function to find the predicted marks for 7.5 hours of study using the regression model
@@ -34,3 +34,4 @@ points(find$x, predicted_value, pch = 16, col = "green")
 
 # Plotting a histogram of 'Marks Scored' to visualize the distribution of the marks
 hist(y, col = "red", main = "Histogram of Marks Scored")
+# study well children 
