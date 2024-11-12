@@ -15,9 +15,11 @@ This R script performs several basic statistical analyses on a dataset, includin
 
 Using ```data <- c(12, 2, 5, 45, 4, 5, 5)``` , the trimmed mean is calculated as follows:
 1. **Sort the Data**: The sorted data is ```2, 4, 5, 5, 5, 12, 45```.
-2. **Apply Trim**: With ```trim = 0.2``` , remove 20% of the values from each end (rounded to one value at each end).
+2. **Apply Trim**: With ```trim = 0.2```
+   - remove 20% of the values from each end. ```7 * 0.20``` = ```1.4```
+   - 1.4 is rounded to 1, hence 1 value should be removed from either end. 
    - Remove ```2``` (lowest) and ```45``` (highest), leaving ```4, 5, 5, 5, 12```.
-3. Calculate Mean of Remaining Values:
+4. Calculate Mean of Remaining Values:
 Mean of ```4, 5, 5, 5, 12``` is ```(4 + 5 + 5 + 5 + 12) / 5 = 6.2```.
 Thus, ```mean(data, trim = 0.2)``` outputs ```6.2```.
 
